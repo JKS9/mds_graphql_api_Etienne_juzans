@@ -8,7 +8,7 @@ module.exports = buildSchema(`
     }
 
     type Query {
-        allItem : toDoItem
+        allItem : toDoItem,
     }
 
     input toDoItemInput {

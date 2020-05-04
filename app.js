@@ -17,6 +17,7 @@ app.use(
     rootValue: graphqlResolver,
     graphiql: true
   })
+  
 );
 
 mongoose.connect('mongodb+srv://JKS:11981997@cluster0-tgshq.gcp.mongodb.net/test?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true}).then(result => {

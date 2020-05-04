@@ -13,7 +13,7 @@ module.exports = {
       name: input.name,
       status: input.status
     }
-    return todoItemModel.create(body)
+    return todoItemModel.create(body);
   },
   updateTodo: ({_id, input}) => {
     let body = {
